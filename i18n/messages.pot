@@ -1,0 +1,48 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Extracted only from this provider's private source.
+#, c-format
+msgid "%d %s %lld %s"
+msgstr ""
+
+#, c-format
+msgid "%d %s %lld"
+msgstr ""
+
+msgid "Thoth"
+msgstr ""
+
+msgid "Phaophi"
+msgstr ""
+
+msgid "Hathyr"
+msgstr ""
+
+msgid "Choiak"
+msgstr ""
+
+msgid "Tybi"
+msgstr ""
+
+msgid "Mecheir"
+msgstr ""
+
+msgid "Phamenoth"
+msgstr ""
+
+msgid "Pharmouthi"
+msgstr ""
+
+msgid "Pachons"
+msgstr ""
+
+msgid "Payni"
+msgstr ""
+
+msgid "Epiphi"
+msgstr ""
+
+msgid "Mesore"
+msgstr ""
+
+msgid "Epagomenal days"
+msgstr ""
