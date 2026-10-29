@@ -13,3 +13,6 @@ The native package has version `VERSION+native1`; the generic release uses `VERS
 The release workflow installs and tests the exact native `.run` on Ubuntu 24.04, seals the three qualified artifacts, stages a draft release, verifies every remotely uploaded byte, and publishes that draft. Published releases are immutable; product changes require advancing `VERSION`. A rerun for a superseded main commit does not publish.
 
 Translations use the provider-owned gettext domain `infiltrator-calendar-egyptian-nabonassar`. The package ships only its own messages in `/usr/share/locale/<language>/LC_MESSAGES/infiltrator-calendar-egyptian-nabonassar.mo`; Common’s combined translation package is not required. The exact compiled catalogues are checked through the provider ABI before packaging.
+
+## Two-file provider payload (v1.0.3)
+Only the native shared object and illustrated historical guide are installed. BUILD-INFO and developer documentation are excluded; gettext is embedded and native-build attestations are in X-Infiltrator control fields.

@@ -47,3 +47,6 @@ Run the downloaded `.run --profile aggressive` as an ordinary user. It provision
 Each package owns only this provider and its passive documentation. Its `Replaces` declaration transfers this module from `infiltrator-calendar-resources` on existing machines; other modules and Common source remain intact. Native package versions use `+native1` so a same-version generic package does not replace a local optimized build. See [packaging details](docs/PACKAGING.md).
 
 Translations use the provider-owned gettext domain `infiltrator-calendar-egyptian-nabonassar`. The package ships only its own messages in `/usr/share/locale/<language>/LC_MESSAGES/infiltrator-calendar-egyptian-nabonassar.mo`; Common’s combined translation package is not required. The exact compiled catalogues are checked through the provider ABI before packaging.
+
+## Two-file installed calendar (v1.0.3)
+The package installs just `Egyptian Nabonassar Era Calendar.so` and an illustrated `Egyptian Nabonassar Era Calendar.pdf`; engineering documents remain in the repository and build provenance in Debian control metadata.
