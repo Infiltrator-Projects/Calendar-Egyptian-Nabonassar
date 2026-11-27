@@ -19,7 +19,7 @@
   ],
   "example": "After Mesore 30 come the five extra days. The next day is 1 Thoth of the following year.",
   "history": "Because the seasonal solar year is slightly longer than the Egyptian civil year, the calendar gradually wanders through the seasons. The Nabonassar era provided a later astronomical chronological reference.",
-  "model": "The provider extends fixed 365-day arithmetic from the stated day-number epoch. Signed day-coordinate extremes must be rejected if conversion cannot round-trip.",
+  "model": "For arithmetic year y, month m and day d, JDN = 1448638+365*(y-1)+30*(m-1)+d-1. Month 13 allows only days 1–5. The inverse uses floor division of JDN-1448638 by 365, with a nonnegative remainder giving the day within the year. Signed day-coordinate extremes must be rejected if conversion cannot round-trip.",
   "limits": "This is Ptolemaic-era Nabonassar reckoning, not the later Coptic leap-year calendar or a reconstruction of all pharaonic regnal dates.",
   "sources": [
     "https://www.timeanddate.com/calendar/coptic-calendar.html",
