@@ -18,7 +18,7 @@
     "Mesore"
   ],
   "example": "After Mesore 30 come the five extra days. The next day is 1 Thoth of the following year.",
-  "history": "Ancient Egyptian civil reckoning used a consistent 365-day year. Because the seasonal solar year is slightly longer, the calendar gradually wanders through the seasons. The Nabonassar era provided a later astronomical chronological reference.",
+  "history": "Because the seasonal solar year is slightly longer than the Egyptian civil year, the calendar gradually wanders through the seasons. The Nabonassar era provided a later astronomical chronological reference.",
   "model": "The provider extends fixed 365-day arithmetic from the stated day-number epoch. Signed day-coordinate extremes must be rejected if conversion cannot round-trip.",
   "limits": "This is Ptolemaic-era Nabonassar reckoning, not the later Coptic leap-year calendar or a reconstruction of all pharaonic regnal dates.",
   "sources": [
